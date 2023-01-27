@@ -1,1 +1,2 @@
-# pac1-2023-algoritmo
+# Algoritmos y Estructuras de datos
+## PAC01 del 2023, UNAH/CUROC
