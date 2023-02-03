@@ -15,13 +15,13 @@ public class Ejercicio3 {
         int total;
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Ingrese el nombre producto: ");
+        System.out.print("Ingrese el nombre producto: ");
         String nombre = scanner.nextLine();
         
-        System.out.println("Ingrese la Cantidad: ");
+        System.out.print("Ingrese la Cantidad: ");
         int cantidad = scanner.nextInt();
         
-        System.out.println("Ingrese el Precio: ");
+        System.out.print("Ingrese el Precio: ");
         int precio = scanner.nextInt();
         
         total = cantidad * precio;

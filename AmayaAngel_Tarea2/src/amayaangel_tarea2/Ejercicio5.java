@@ -14,7 +14,7 @@ public static void main(String[] args) {
       int intentos = 0;
       int adivinanza;
 
-      System.out.println("Adivina un numero entre 1 y 20");
+      System.out.print("Adivina un numero entre 1 y 20");
       while (intentos < 3) {
         System.out.print("Ingresa el numero a adivinar: ");
         adivinanza = sc.nextInt();
