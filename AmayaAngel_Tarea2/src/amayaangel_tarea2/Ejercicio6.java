@@ -20,6 +20,6 @@ public class Ejercicio6 {
             case 7 -> "Domingo";
             default -> "Dia inexistente";
         };
-        System.out.println("El numero corresponde al dia: " + diaSemana);
+        System.out.println("El numero " + num + " corresponde al dia: " + diaSemana);
     }
 }

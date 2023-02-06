@@ -1,4 +1,4 @@
-package estructurasControl;
+package estructuraControl;
 
 import java.util.Scanner;
 public class Promedio {

@@ -10,15 +10,14 @@ public class Ejercicio8 {
         int numx = sc.nextInt();
         System.out.print("Ingrese el el numero hasta donde desee multiplicar: ");
         int numy = sc.nextInt();
+        System.out.println("Tabla de multiplicar del " + numx);
+        System.out.println("--------------------------");
+        int i = 1;
 
-        while (numx < numy) {
-            System.out.println("Tabla de multiplicar del " + numx);
-            System.out.println("--------------------------");
-            for (int i = 1; i <= numy; i++) {
-                int tabla = numx * i;
-                System.out.println(numx + " x " + i + " = " + tabla);
-            }
-            break;
+        while (i <= numy) {
+            int resultado = numx * i;
+            System.out.println(numx + " x " + i + " = " + resultado);
+            i++;
         }
     }
 }

@@ -1,15 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package amayaangel_tarea2;
 
 import java.util.Scanner;
 
-/**
- *
- * @author angel
- */
 public class Ejercicio3 {
     public static void main(String[] args) {
         int total;
@@ -18,10 +10,10 @@ public class Ejercicio3 {
         System.out.print("Ingrese el nombre producto: ");
         String nombre = scanner.nextLine();
         
-        System.out.print("Ingrese la Cantidad: ");
+        System.out.print("Ingrese la Cantidad del producto: ");
         int cantidad = scanner.nextInt();
         
-        System.out.print("Ingrese el Precio: ");
+        System.out.print("Ingrese el Precio del producto: ");
         int precio = scanner.nextInt();
         
         total = cantidad * precio;
