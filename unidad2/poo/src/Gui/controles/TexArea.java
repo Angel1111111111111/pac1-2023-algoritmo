@@ -32,7 +32,7 @@ public class TexArea extends JFrame {
 
         txtNumero = new JTextField(10);
         txtLimite = new JTextField(10);
-        JButton btnMostar = new JButton("Mostrar");
+        btnMostar = new JButton("Mostrar");
         textaMensaje = new JTextArea(10, 40);
 
         btnMostar.addActionListener(e -> generarTabla());
